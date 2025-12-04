@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\CadAlunoTorloni\\CadAlunoTorloni.csproj",
+      "projectUniqueName": "C:\\Users\\51155097840\\Desktop\\MVC\\CadAlunoTorloni\\CadAlunoTorloni.csproj",
       "projectName": "CadAlunoTorloni",
-      "projectPath": "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\CadAlunoTorloni\\CadAlunoTorloni.csproj",
+      "projectPath": "C:\\Users\\51155097840\\Desktop\\MVC\\CadAlunoTorloni\\CadAlunoTorloni.csproj",
       "packagesPath": "C:\\Users\\51155097840\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\CadAlunoTorloni\\obj\\",
+      "outputPath": "C:\\Users\\51155097840\\Desktop\\MVC\\CadAlunoTorloni\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\51155097840\\AppData\\Roaming\\NuGet\\NuGet.Config"

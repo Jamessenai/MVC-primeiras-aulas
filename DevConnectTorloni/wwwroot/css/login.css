@@ -1,0 +1,89 @@
+main { /* tela principal*/
+    width: 100%;
+    min-height: 100vh;
+    /*Altura da janela do meu dispositivo*/
+    display: flex;
+    align-items: center;
+    /*alinha no sentido ao contrario do flex*/
+    justify-content: center;
+    /*alinha no sentindo do flex*/
+}
+
+main>div { /* para poder alinha e centralizar*/
+    width: 90%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*  formulário */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    gap: 15px;
+}
+
+.estilo-formulario {
+    max-width: 340px;
+}
+
+
+#formulario > div {
+    width: 100%;
+}
+
+#formulario > div > label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-cinza-escuro2);
+    font-weight: 500; /* aumenta ou diminui a espessura da fonte */
+    padding-bottom: 4px;
+}
+
+.formulario-botao-azul{
+    width: 100%;
+}
+
+#formulario > p{
+    text-transform: uppercase;
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-cinza1);
+}
+
+#formulario > a, #secao-cadastro > p > a{
+    text-decoration: none;
+    color: var(--cor-azul);
+}
+
+#secao-cadastro > p{
+    font-size: var(--tamanho-fonte-md);
+}
+
+#secao-cadastro {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+}
+
+.informacao-aplicativo {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 400;
+}
+
+#secao-intalacao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#secao-instalacao img {
+    width: 133px;
+    height: 39px;
+}

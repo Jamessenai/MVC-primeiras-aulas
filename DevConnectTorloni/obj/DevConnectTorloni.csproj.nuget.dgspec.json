@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {}
+    "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {}
   },
   "projects": {
-    "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {
+    "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
+        "projectUniqueName": "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
         "projectName": "DevConnectTorloni",
-        "projectPath": "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
+        "projectPath": "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
         "packagesPath": "C:\\Users\\51155097840\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\51155097840\\Desktop\\BackEnd\\MVC\\DevConnectTorloni\\obj\\",
+        "outputPath": "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\51155097840\\AppData\\Roaming\\NuGet\\NuGet.Config"
