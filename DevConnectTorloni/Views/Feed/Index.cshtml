@@ -1,1 +1,127 @@
-<h1>Página de Feed</h1>
+
+    <link rel="shortcut icon" href="~/images/logo-devconnect-md.svg" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/feed.css">
+
+    <h1>Tela Feed - DevConnect</h1>
+
+    <header id="cabecalho">
+        <nav>
+            <a id="logo-desktop" href="./feed.html">
+                <img src="../images/logo-devconnect-md.svg" alt="Logo da empresa DevConnect">
+            </a>
+            <a id="logo-mobile" href="./feed.html">
+                <img src="../images/logo-devconnect-sm.svg" alt="Logo da empresa DevConnect">
+            </a>
+
+            <!-- ícones de navegação -->
+            <div class="cabecalho-acoes">
+                <a asp-asp-controller="Home" asp-action="Index">
+                    <img src="../images/icone-casa-preto.svg" alt="Ícone de uma casa na cor preta">
+                </a>
+                <a href="#">
+                    <img src="../images/icone-coracao-preto.svg" alt="Ícone de um coração na cor preta">
+                </a>
+                <a href="#">
+                    <img class="foto-perfil" src="../images/neymar-jr-gettyimages-2053065452-copy_widelg.jpg"
+                        alt="Foto de perfil">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-flex-publi">
+            <section id="storys" class="estilo-formulario">
+                <article class="card-story">
+                    <a href="#">
+                        <img src="../images/1_bruna_marquezine_2_1024x768-29456952.webp" alt="Bruna Marquezine">
+                        <span>brunamarquezine</span>
+                    </a>
+                </article>
+
+                <article class="card-story">
+                    <a href="#">
+                        <img src="../images/megan-fox-transformers-2-jacket-5t7hyaoyalb2vl61.jpg" alt="Mega Fox">
+                        <span>Mega_</span>
+                    </a>
+                </article>
+                <article class="card-story">
+                    <a href="#">
+                        <img src="../images/larissa_manuela_abre.webp" alt="Larissa Manoela">
+                        <span>Lari_Manoela</span>
+                    </a>
+                </article>
+                <article class="card-story">
+                    <a href="#">
+                        <img src="../images/mc-mirella.jpg" alt="Mirella">
+                        <span>McMirella</span>
+                    </a>
+                </article>
+                <article class="card-story">
+                    <a href="#">
+                        <img src="../images/2432616.jpg" alt="Melissa">
+                        <span>Melzinha</span>
+                    </a>
+                </article>
+                <article class="card-story">
+                    <a href="#">
+                        <img src="../images/lara-silva.webp" alt="Lara Silv">
+                        <span>Lara_Silva</span>
+                    </a>
+                </article>
+            </section>
+
+            <section id="cadastro-publi" class="estilo-formulario">
+                <h2>Publicação</h2>
+
+                <form asp-action="">
+                    <textarea name="" id="" placeholder="Digite seu post..."></textarea>
+
+                    <footer>
+                        <div>
+                            <label for="file" id="texto-upload"> Fazer upload da imagem</label>
+                            <input type="file" id="file" hidden>
+                        </div>
+
+                        <button type="submit" class="formulario-botao-azul">Postar</button>
+                    </footer>
+                </form>
+            </section>
+
+            <section id="publicacoes">
+                <article class="card-publi">
+                    <header>
+                        <a href="">
+                            <img class="foto-perfil" src="../images/neymar-jr-gettyimages-2053065452-copy_widelg.jpg" alt="Foto de perfil">
+                            neymarjr
+                        </a>
+
+
+                    </header>
+                   
+                    <figure>
+                        <img  class="imagem-publicacao" src="../images/neymar-marquezine.jpeg" alt="">
+
+                        <figcaption class="descricao-publicacao">
+                            neymarjr
+                            <p>Eu e meu amor curtindo a noite paulista.</p>
+                        </figcaption>
+                       
+                        <div class="interacoes-publicacao">
+                           <button>
+                            <img src="../images/icone-coracao-preto.svg" alt="">
+                           </button>
+                           <button>
+                            <img src="../images/icone-comentario-preto.svg" alt="">
+                           </button>
+
+                           <span>100K curtidas</span>
+                        </div>
+                    </figure>
+
+                    <button tytpe="button">Ver mais comentário...</button>
+                </article>
+            </section>
+
+        </div>
+    </main>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {}
+    "C:\\Users\\51155097840\\Desktop\\2S_DevConnect\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {}
   },
   "projects": {
-    "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {
+    "C:\\Users\\51155097840\\Desktop\\2S_DevConnect\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
+        "projectUniqueName": "C:\\Users\\51155097840\\Desktop\\2S_DevConnect\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
         "projectName": "DevConnectTorloni",
-        "projectPath": "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
+        "projectPath": "C:\\Users\\51155097840\\Desktop\\2S_DevConnect\\MVC\\DevConnectTorloni\\DevConnectTorloni.csproj",
         "packagesPath": "C:\\Users\\51155097840\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\51155097840\\Desktop\\MVC\\DevConnectTorloni\\obj\\",
+        "outputPath": "C:\\Users\\51155097840\\Desktop\\2S_DevConnect\\MVC\\DevConnectTorloni\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\51155097840\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,18 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

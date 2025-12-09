@@ -1,0 +1,205 @@
+main {
+    min-height: 100vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .container-flex-publi {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #storys {
+    /*background-color: brown;*/
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+    overflow-x: scroll;
+  }
+  
+  #storys::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .card-story {
+    /*width: 100%;*/
+    /*max-width: 100px;*/
+    /*background-color: coral;*/
+  }
+  
+  .card-story>a {
+    /*background-color: brown;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+  }
+  
+  .card-story>a>img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .card-story>a>span {
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
+    text-transform: lowercase;
+  }
+  
+  /* seção criar publi */
+  #cadastro-publi {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+  }
+  
+  #cadastro-publi>h2 {
+    font-size: var(--tamanho-font-lg);
+    color: var(--cor-preto);
+    font-weight: 800;
+  }
+  
+  #cadastro-publi>form>textarea {
+    width: 100%;
+    height: 80px;
+    background-color: var(--cor-cinza-claro);
+    resize: none;
+    padding: 10px;
+    color: var(--cor-cinza1);
+    font-size: var(--tamanho-fonte-sm);
+    /*border: var(--borda);*/
+  }
+  
+  #cadastro-publi>form>textarea::placeholder {
+    color: var(--cor-cinza2);
+  }
+  
+  #cadastro-publi>form>footer {
+    /*background-color: brown;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .formulario-botao-azul {
+    width: 100%;
+    max-width: 135px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .formulario-botao {
+    width: 100%;
+    max-width: 135px;
+  }
+  
+  /* seção publicação */
+  #publicacoes {
+    width: 100%;
+    /*height: 600px;*/
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-publi {
+    width: 100%;
+    background-color: var(--cor-branco);
+  
+  }
+  
+  .card-publi>header {
+    /*height: 80px;*/
+    background-color: #FFFFFC;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+  }
+  
+  .card-publi>header>a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--cor-preto);
+    font-weight: 500;
+  }
+  
+  .imagem-publicacao {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .card-publi>figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .descricao-publicacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--tamanho-font-md);
+    font-weight: 500;
+    padding: 0px 3%;
+    order: 2;
+    flex-wrap: wrap;
+  
+  }
+  
+  .descricao-publicacao>p {
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+  }
+  
+  .interacoes-publicacao {
+    width: 95%;
+    display: flex;
+    /*justify-content: space-between;*/
+    gap: 10px;
+    flex-wrap: wrap;
+    order: 1;
+    margin: 15px 3%;
+  }
+  
+  .interacoes-publicacao>button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .interacoes-publicacao>span {
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 700;
+    color: var(--cor-preto);
+  }
+  
+  .card-publi>button {
+    margin: 15px 3%;
+    background-color: transparent;
+    border: none;
+  
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+    color: var(--cor-cinza3);
+  }

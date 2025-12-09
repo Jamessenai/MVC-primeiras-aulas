@@ -1,0 +1,149 @@
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+
+main>header {
+    display: flex;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: var(--borda);
+}
+
+.navbar {
+    background-color: var(--cor-azul);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.perfil-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.perfil {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 680px;
+    margin: 20px auto;
+}
+
+.perfil-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.perfil-info > h2 {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.perfil-info > p {
+    margin: 5px 0;
+}
+
+.botao {
+    margin-top: 10px;
+}
+
+.editar > .sair {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editar {
+    background-color: var(--cor-azul);
+    color: white;
+    margin-right: 10px;
+}
+
+.sair {
+    background-color: var(--cor-azul);
+    color: white;
+}
+
+.publicacoes-card{ 
+    background-color: var(--cor-branco);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 50px;
+    border: var(--borda);
+}
+
+.publicacoes > h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: var(--cor-cinza-claro);
+    display: flex;
+    justify-content: center;
+}
+
+.publicacoes {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.publicacoes > h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.publicacoes > p {
+    margin-bottom: 10px;
+}
+
+.publicacoes-info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+.publicacoes-info>div {
+ display: flex;
+ align-items: center;
+}
+
+.publicacoes-card > a {
+    font-size: 14px;
+    color: var(--cor-cinza3);
+    text-decoration:none;
+}
+
+#foto-publicacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,1 +1,54 @@
-<h1>Página de Úsuario</h1>
+@model DevConnectTorloni.Models.Usuario
+
+<link rel="stylesheet" href="~/css/cadastro.css">
+
+<script defer>
+    const usuarioNovoCadastrado = "@ViewBag.UsuarioNovoCadastrado";
+
+    if(usuarioNovoCadastrado == "Nao Cadastrado"){
+        alert("Usuário não cadastrado! Tente novamente 😔");
+    }
+
+</script>
+
+    <main>
+        <div>
+            <!--formulário-->
+            <form id="formulario" class="estilo-formulario" enctype="multipart/form-data" asp-action="Index" asp-controller="Usuario">
+
+                <img src="../images/logo-devconnect-lg.svg" alt="Logo da DevConnect">
+                <div>
+                    <label for="usuario">Nome e sobrenome:</label>
+                    <input type="text" asp-asp-for="NomeCompleto" asp-for="NomeCompleto">
+                </div>
+
+                <div>
+                    <label for="usuario">Nome do usuario:</label>
+                    <input type="text" asp-for=" NomeUsuario">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" asp-for="Email">
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" asp-for="Senha">
+                </div>
+
+                <div>
+                    <label for="arquivo" class="btn-upload"> Fazer upload da imagem</label>
+                    <input type="file" id="arquivo" name="imagem">
+                </div>
+
+                <button type="submit" class="formulario-botao-azul">Cadastre-se</button>
+
+                <p>ao se cadastrar,voce concorda com nossos Termos,Politica de Dados e Política de Dados e Politica de Cookies</p>
+               </form>
+                <section id="secao-cadastro" class="estilo-formulario"
+                    <p>tem uma conta? <a asp-action="Index" asp-controller="Home">Conecte-se</a></p>
+                </section>
+            </div>
+        </main>
+    </html>

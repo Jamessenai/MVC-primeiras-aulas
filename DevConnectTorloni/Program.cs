@@ -1,4 +1,11 @@
+using DevConnectTorloni.Contexts;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<DevConnectContext>(option =>
+    option.UseSqlServer(builder.Configuration.GetConnectionString("DevCon_Sa"))
+);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
