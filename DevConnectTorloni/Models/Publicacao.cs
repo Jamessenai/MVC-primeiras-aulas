@@ -15,13 +15,12 @@ public partial class Publicacao
     [Column("usuarioid")]
     public int? Usuarioid { get; set; }
 
-    [Column("descricao")]
     [StringLength(255)]
     public string Descricao { get; set; } = null!;
 
     [Column("imagem_url")]
-    [StringLength(150)]
-    public string ImagemUrl { get; set; } = null!;
+    [StringLength(255)]
+    public string? ImagemUrl { get; set; }
 
     [Column("data_publicacao")]
     public DateOnly DataPublicacao { get; set; }
